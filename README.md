@@ -66,3 +66,6 @@ demonstrator directory, not other website content or the article manuscript.
 Its two Blob workers require no cross-origin downloads in the anonymous
 host’s sandbox. This changes loading only, not the solver or controller.
 `modular.html` retains the ordinary HTTP module-worker entry point.
+The hosted page displays run diagnostics as selectable JSON because its
+sandbox forbids file downloads. The ordinary local page retains file export.
+The simulator sends no run data; hosting infrastructure may collect access diagnostics.
